@@ -2,7 +2,8 @@
 Matrix multiplication using Python3.8, CUDA, PyCUDA
 - Implemented the fastest way to multiply matrix ( using numpy.dot() );
 - Compared a time running of two ways on gpu: 1) with numpy.dot(); 2) with C++ kernel in PyCUDA 
-- Mean results:
+- Results:
+
   |  N  | CPU time, ms | GPU time, ms | Speedup|
   |:---:|:------------:|:------------:|:------:|
   | 128 |        0.112 |        0.416 |    0.27|
