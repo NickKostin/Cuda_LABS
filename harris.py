@@ -46,7 +46,7 @@ __global__ void HarrisCornerDetect(float* In,  float* Sobel_x, float* Sobel_y, f
 """
 
 
-# Load an color image in grayscale
+# Load an color image 
 if(len(sys.argv) != 2):
     print("python3 Harris file")
     exit()
