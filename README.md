@@ -1,4 +1,6 @@
 # Cuda_LABS
+
+# mult - Matrix Multiplication
 Matrix multiplication using Python3.8, CUDA, PyCUDA
 - Implemented the fastest way to multiply matrix ( using numpy.dot() );
 - Compared a time running of two ways on gpu: 1) with numpy.dot(); 2) with C++ kernel in PyCUDA 
@@ -15,3 +17,6 @@ Matrix multiplication using Python3.8, CUDA, PyCUDA
 - Conclusion:
   - On small matrix sizes CPU calculate better than GPU, but, with the matrix size growing, GPU shows better results, in compare with CPU. 
   - Most reasonable for multiplying high-sizes matrix is to use GPU, instead of CPU.
+
+# harris - Harris Corner Detector
+Harris Corner Detector using Python3.8, CUDA, PyCUDA
