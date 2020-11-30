@@ -30,19 +30,19 @@ Salt and Pepper noise filtering using Python3.8, CUDA, PyCUDA
 
 - Results for filter 3х3 (median)
 
-|   File   | CPU time, ms | GPU time, ms | Speedup |
-|:--------:|:------------:|:------------:|:-------:|
-| 256.bmp  |      524.320 |        0.289 | 1813.15 |
-| 512.bmp  |     2273.571 |        0.492 | 4619.92 |
-| 1024.bmp |     9105.398 |        1.484 | 6135.44 |
+  |   File   | CPU time, ms | GPU time, ms | Speedup |
+  |:--------:|:------------:|:------------:|:-------:|
+  | 256.bmp  |      524.320 |        0.289 | 1813.15 |
+  | 512.bmp  |     2273.571 |        0.492 | 4619.92 |
+  | 1024.bmp |     9105.398 |        1.484 | 6135.44 |
 
 - Results for filter 5х5 (median)
 
-|   File   | CPU time, ms | GPU time, ms | Speedup |
-|:--------:|:------------:|:------------:|:-------:|
-| 256.bmp  |     1210.220 |        0.925 | 1308.35 |
-| 512.bmp  |     5102.574 |        2.189 | 2331.01 |
-| 1024.bmp |    19996.483 |        6.873 | 2909.43 |
+  |   File   | CPU time, ms | GPU time, ms | Speedup |
+  |:--------:|:------------:|:------------:|:-------:|
+  | 256.bmp  |     1210.220 |        0.925 | 1308.35 |
+  | 512.bmp  |     5102.574 |        2.189 | 2331.01 |
+  | 1024.bmp |    19996.483 |        6.873 | 2909.43 |
 
 - Conclusion:
     -  Using the GPU in the framework of the median filtering task gives great increase in speed.
