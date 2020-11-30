@@ -21,8 +21,8 @@ Matrix multiplication using Python3.8, CUDA, PyCUDA
 # harris - Harris Corner Detector
 Harris Corner Detector using Python3.8, CUDA, PyCUDA
 
-# salt and pepper - Salt and Pepper Algorithm
-Salt and Pepper using Python3.8, CUDA, PyCUDA
+# salt and pepper - Salt and Pepper noise filtering
+Salt and Pepper noise filtering using Python3.8, CUDA, PyCUDA
 
 - To obtain an array characterizing the color of pixels, the `Pillow` library was used
 - Each element of the output image was calculated (on the GPU) by a separate thread
