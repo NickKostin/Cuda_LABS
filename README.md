@@ -21,34 +21,29 @@ Matrix multiplication using Python3.8, CUDA, PyCUDA
 # harris - Harris Corner Detector
 Harris Corner Detector using Python3.8, CUDA, PyCUDA
 
-# Salt And Pepper
-- Лабораторная написана на языке Python 3 с использованием библиотеки `pycuda`
-    - CUDA-ядро написано на С++ и обернуто в python-функцию
-- Для получения массива чисел, характеризующих цвет пикселя использовалась библиотека `Pillow`  
-- Каждый элемент выходного изображения вычислялся (на GPU) отдельной нитью (потоком)
-- Для ускорения вычислений на GPU внутри каждого блока изображения было реализовано копирование элементов из глобальной памяти в разделяемую, что позволило уменьшить число обращений к глобальной памяти
+# salt and pepper - Salt and Pepper Algorithm
+Salt and Pepper using Python3.8, CUDA, PyCUDA
 
+- To obtain an array characterizing the color of pixels, the `Pillow` library was used
+- Each element of the output image was calculated (on the GPU) by a separate thread
+- To speed up calculations on the GPU inside each image block, copying of elements from global memory to shared memory was implemented, which reduces the number of calls to global memory
 
-|Исходное изображение 256x256| Обработанное на CPU | Обработанное на GPU |
-|:--------------------------:|:-------------------:|:-------------------:|
-| ![](SaltAndPepperImages/256.bmp) | ![](SaltAndPepperImages/cpu256.bmp) | ![](SaltAndPepperImages/gpu256.bmp) |
-
-- Результаты для фильтра 3х3 (усредненные по нескольким запускам)
+- Results for filter 3х3 (median)
 
 |   File   | CPU time, ms | GPU time, ms | Speedup |
 |:--------:|:------------:|:------------:|:-------:|
-| 256.bmp  |      556.000 |        0.351 | 1585.50 |
-| 512.bmp  |     2334.820 |        0.509 | 4591.42 |
-| 1024.bmp |     9366.697 |        1.511 | 6200.49 |
+| 256.bmp  |      524.320 |        0.289 | 1813.15 |
+| 512.bmp  |     2273.571 |        0.492 | 4619.92 |
+| 1024.bmp |     9105.398 |        1.484 | 6135.44 |
 
-- Результаты для фильтра 5х5 (усредненные по нескольким запускам)
+- Results for filter 5х5 (median)
 
 |   File   | CPU time, ms | GPU time, ms | Speedup |
 |:--------:|:------------:|:------------:|:-------:|
-| 256.bmp  |     1232.150 |        0.967 | 1274.56 |
-| 512.bmp  |     5238.691 |        2.454 | 2135.13 |
-| 1024.bmp |    20812.174 |        7.231 | 2878.32 |
+| 256.bmp  |     1210.220 |        0.925 | 1308.35 |
+| 512.bmp  |     5102.574 |        2.189 | 2331.01 |
+| 1024.bmp |    19996.483 |        6.873 | 2909.43 |
 
-- Выводы
-    -  Использование GPU в рамках задачи медианной фильтрации дает колоссальный прирост в скорости
+- Conclusion:
+    -  Using the GPU in the framework of the median filtering task gives great increase in speed.
 ---
