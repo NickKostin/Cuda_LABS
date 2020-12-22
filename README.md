@@ -23,7 +23,7 @@ Harris Corner Detector using Python3.8, CUDA, PyCUDA
 
 | Original Image: | Processed Image: |
 |:---------------:|:----------------:|
-| ![](Harris image/checkerboard.png) | ![](Harris image/finalimage.png) |
+| ![](https://github.com/NickKostin/Cuda_LABS/blob/main/Harris%20images/checkerboard.png?raw=true) | ![](https://github.com/NickKostin/Cuda_LABS/blob/main/Harris%20images/finalimage.png?raw=true) |
 
 # salt and pepper - Salt and Pepper noise filtering
 Salt and Pepper noise filtering using Python3.8, CUDA, PyCUDA
