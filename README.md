@@ -47,6 +47,11 @@ Salt and Pepper noise filtering using Python3.8, CUDA, PyCUDA
   | 256.bmp  |     1210.220 |        0.925 | 1308.35 |
   | 512.bmp  |     5102.574 |        2.189 | 2331.01 |
   | 1024.bmp |    19996.483 |        6.873 | 2909.43 |
+  
+| Original Image: | CPU Processed Image: | GPU Processed Image: |
+|:---------------:|:--------------------:|:--------------------:|
+| ![](https://github.com/NickKostin/Cuda_LABS/blob/main/SaltAndPepper%20images/original_img.bmp?raw=true) | ![](https://github.com/NickKostin/Cuda_LABS/blob/main/SaltAndPepper%20images/cpu_img.bmp?raw=true) | ![](https://github.com/NickKostin/Cuda_LABS/blob/main/SaltAndPepper%20images/gpu_img.bmp?raw=true) |
+
 
 - Conclusion:
     -  Using the GPU in the framework of the median filtering task gives great increase in speed.
