@@ -21,8 +21,9 @@ Matrix multiplication using Python3.8, CUDA, PyCUDA
 # harris - Harris Corner Detector
 Harris Corner Detector using Python3.8, CUDA, PyCUDA
 
-Original Image: ![](Harris image/checkerboard.png)
-Processed Image: ![](Harris image/finalimage.png)
+| Original Image: | Processed Image: |
+|:---------------:|:----------------:|
+| ![](Harris image/checkerboard.png) | ![](Harris image/finalimage.png) |
 
 # salt and pepper - Salt and Pepper noise filtering
 Salt and Pepper noise filtering using Python3.8, CUDA, PyCUDA
