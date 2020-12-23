@@ -24,9 +24,10 @@ Harris Corner Detector using Python3.8, CUDA, PyCUDA
 - Results:
   - For Image (384 by 384 pixels):
   
-  | CPU time, ms | GPU time, ms | Speedup |
-  |:------------:|:------------:|:-------:|
-  |     3.216    |     0.263    |  12.22  |
+  
+    | CPU time, ms | GPU time, ms | Speedup |
+    |:------------:|:------------:|:-------:|
+    |     3.216    |     0.263    |  12.22  |
 
 
 | Original Image: | Processed Image: |
