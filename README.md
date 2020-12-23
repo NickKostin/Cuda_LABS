@@ -21,6 +21,14 @@ Matrix multiplication using Python3.8, CUDA, PyCUDA
 # harris - Harris Corner Detector
 Harris Corner Detector using Python3.8, CUDA, PyCUDA
 
+- Results:
+  - (384 by 384 pixels)
+  
+  | CPU time, ms | GPU time, ms | Speedup |
+  |:------------:|:------------:|:-------:|
+  |     3.216    |     0.263    |  12.22  |
+
+
 | Original Image: | Processed Image: |
 |:---------------:|:----------------:|
 | ![](https://github.com/NickKostin/Cuda_LABS/blob/main/Harris%20images/checkerboard.png?raw=true) | ![](https://github.com/NickKostin/Cuda_LABS/blob/main/Harris%20images/finalimage.png?raw=true) |
