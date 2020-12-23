@@ -22,7 +22,7 @@ Matrix multiplication using Python3.8, CUDA, PyCUDA
 Harris Corner Detector using Python3.8, CUDA, PyCUDA
 
 - Results:
-  - (384 by 384 pixels)
+  - For Image (384 by 384 pixels):
   
   | CPU time, ms | GPU time, ms | Speedup |
   |:------------:|:------------:|:-------:|
@@ -32,6 +32,10 @@ Harris Corner Detector using Python3.8, CUDA, PyCUDA
 | Original Image: | Processed Image: |
 |:---------------:|:----------------:|
 | ![](https://github.com/NickKostin/Cuda_LABS/blob/main/Harris%20images/checkerboard.png?raw=true) | ![](https://github.com/NickKostin/Cuda_LABS/blob/main/Harris%20images/finalimage.png?raw=true) |
+
+- Conclusion:
+  - GPU shows better results, in compare with CPU.  
+  
 
 # salt and pepper - Salt and Pepper noise filtering
 Salt and Pepper noise filtering using Python3.8, CUDA, PyCUDA
